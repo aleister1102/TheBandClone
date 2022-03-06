@@ -1,4 +1,4 @@
-# ✨Trang web Shopee Clone
+# ✨Trang web The Band Clone
 
 Đây là trang web **The Band Clone** 🛒, lấy từ [template mẫu của W3School](https://www.w3schools.com/w3css/tryw3css_templates_band.htm).
 
