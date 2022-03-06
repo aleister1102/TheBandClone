@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band</title tle>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f31e1a0778.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- Header -->
+        <div id="header">
+            <!-- Main navigation -->
+            <ul class="nav no-bullet">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tours">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">More</a>
+                    <!-- Sub navigation -->
+                    <ul class="sub-nav pos-abs hidden bg-white no-bullet">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Search button -->
+            <div class="header__search float-right pointer">
+                <i class="icon text-white fa-solid fa-magnifying-glass"></i>
+            </div>
+            <!-- Menu button -->
+            <div class="header__menu-button hidden pos-abs">
+                <i class="icon text-white fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <!-- Slider -->
+        <div id="slider">
+            <div class="slider__text-box text-center text-white">
+                <h2 class="slider__text-header">New york</h2>
+                <p class="slider__text-description">The atmosphere in New York is lorem ipsum.</p>
+            </div>
+        </div>
+        <!-- Content -->
+        <div id="content">
+            <!-- Band -->
+            <div id="band">
+                <!-- Description -->
+                <h1 class="content__header">The Band</h1>
+                <p class="content__sub-header"><i>We love music</i></p>
+                <p class="band__description">We have created a fictional band website. Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.</p>
+                <!-- Members -->
+                <div class="band__members flex text-center">
+                    <div class="band_member">
+                        <p class="band__name">Name</p>
+                        <div class="band__image"><img src="https://www.w3schools.com/w3images/bandmember.jpg"
+                                alt="Member's image">
+                        </div>
+                    </div>
+                    <div class="band_member">
+                        <p class="band__name">Name</p>
+                        <div class="band__image"><img src="https://www.w3schools.com/w3images/bandmember.jpg"
+                                alt="Member's image">
+                        </div>
+                    </div>
+                    <div class="band_member">
+                        <p class="band__name">Name</p>
+                        <div class="band__image"><img src="https://www.w3schools.com/w3images/bandmember.jpg"
+                                alt="Member's image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Tours -->
+            <div id="tours-wrapper">
+                <div id="tours">
+                    <h1 class="content__header">TOUR DATES</h1>
+                    <p class="content__sub-header"><i>Remember to book your tickets!</i></p>
+                    <!-- Months -->
+                    <div class="months bg-white">
+                        <p class="month">September <span class="sold-out">Sold out</span></p>
+                        <p class="month">October <span class="sold-out">Sold out</span></p>
+                        <p class="month flex">November <span class="quantity circle text-center text-white">3</span></p>
+                    </div>
+                    <!-- Cities -->
+                    <div class="cities flex">
+                        <div class="city">
+                            <img src="https://www.w3schools.com/w3images/newyork.jpg" alt="Newyork" class="city__image">
+                            <div class="city__text-box">
+                                <h2 class="city__name">New York</h2>
+                                <p class="city__date">Fri 27 Nov 2016</p>
+                                <p class="city__description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="city__button js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="city">
+                            <img src="https://www.w3schools.com/w3images/paris.jpg" alt="Paris" class="city__image">
+                            <div class="city__text-box">
+                                <h2 class="city__name">Paris</h2>
+                                <p class="city__date">Sat 28 Nov 2016</p>
+                                <p class="city__description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="city__button js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="city">
+                            <img src="https://www.w3schools.com/w3images/sanfran.jpg" alt="San Francisco"
+                                class="city__image">
+                            <div class="city__text-box">
+                                <h2 class="city__name">San Francisco</h2>
+                                <p class="city__date">Sun 29 Nov 2016</p>
+                                <p class="city__description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="city__button js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact -->
+            <div id="contact">
+                <h1 class="content__header">Contact</h1>
+                <p class="content__sub-header"><i>Fan? Drop a note!</i></p>
+                <div class="contact__form flex">
+                    <div class="contact__infos">
+                        <i class="icon fa-solid fa-location-dot"></i>
+                        Chicago, US<br>
+                        <i class="icon fa-solid fa-phone"></i>
+                        Phone: +00 151515<br>
+                        <i class="icon fa-solid fa-envelope"></i>
+                        Email: mail@mail.com<br>
+                    </div>
+                    <form class="contact__inputs">
+                        <div class="contact__upper flex">
+                            <input required placeholder="Name" type="text" class="contact__input">
+                            <input required placeholder="Email" type="email" class="contact__input">
+                        </div>
+                        <div class="contact__lower">
+                            <input required placeholder="Message" type="text" class="contact__input">
+                        </div>
+                        <input type="submit" class="contact__button float-right text-white pointer"
+                            value="SEND"></input>
+                    </form>
+                </div>
+            </div>
+            <!-- Map -->
+            <div id="map">
+            </div>
+        </div>
+        <!-- Footer -->
+        <div id="footer">
+            <i class="footer__icon icon fa-brands fa-facebook"></i>
+            <i class="footer__icon icon fa-brands fa-instagram"></i>
+            <i class="footer__icon icon fa-brands fa-snapchat"></i>
+            <i class="footer__icon icon fa-brands fa-pinterest"></i>
+            <i class="footer__icon icon fa-brands fa-twitter"></i>
+            <i class="footer__icon icon fa-brands fa-linkedin"></i>
+            <p class="footer__author">
+                Powered by
+                <a href="https://www.w3schools.com/w3css/default.asp" class="footer__author-web">w3.css</a>
+            </p>
+        </div>
+    </div>
+    <!-- Modal section -->
+    <div class="modal pos-fix hidden js-modal">
+        <div class="modal__container flex bg-white js-modal-container">
+            <!-- Header -->
+            <div class="modal__header pos-rel flex">
+                <h2><i class="icon fa-solid fa-suitcase"></i>
+                    Tickets</h2>
+                <span class="modal__header-close-button pos-abs js-close-modal">
+                    <i class="icon fa-solid fa-xmark"></i>
+                </span>
+            </div>
+            <!-- Form -->
+            <div class="modal__form">
+                <p class="modal__form-price">
+                    <i class="icon fa-solid fa-cart-shopping"></i>
+                    <label for="ticket">Tickets, $15 per person</label>
+                </p>
+
+                <input placeholder="How many?" type="text" />
+                <p class="modal__form-email">
+                    <i class="icon fa-solid fa-user"></i>
+                    <label for="email">Send to</label>
+                </p>
+
+                <input placeholder="Enter email" type="text" />
+                <div class="modal__form-pay-button text-center text-white">
+                    Pay<i class="icon fa-solid fa-check"></i>
+                </div>
+                <p class="modal__form-help float-right">Need <a href="#">help?</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
